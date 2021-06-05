@@ -70,7 +70,7 @@ select#temp_diff {
     position: relative;
   }
   .temp {
-    position: absolute;
+    /* position: absolute; */
     /* margin-right: 50px; */
     width: auto;
     top: 40px;
@@ -91,5 +91,8 @@ select#temp_diff {
     padding: 15px 50px;
     margin: 0px;
     margin-top: 40px;
+  }
+  form {
+    position: fixed;
   }
 }
